@@ -1,3 +1,89 @@
+* {
+  text-align: center;
+  font-family: "Roboto";
+}
 
+h2, footer * {
+  text-align: start;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header {
+  padding: 20px 0;
+  box-shadow: 0px 3px 10px grey;
+}
+
+#logo {
+  height: 30px;
+}
+
+#location {
+  padding: 20px 0;
+  background-color: rgb(220, 220, 220);
+}
+
+.omf-buttons {
+  height: 40px;
+  padding: 0 15px;
+  background-color: #9356DC;
+  color: white;
+  border-radius: 20px;
+  border: none;
+}
+
+#call-to-action {
+  margin-bottom: 40px;
+  padding: 20px 0;
+  background-color: rgb(240, 240, 240);
+}
+#call-to-action h2 {
+  text-align: center;
+}
+
+.step__number {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: #9356DC;
+  color: white;
+}
+
+#instructions {
+  margin: 0 16px;
+  margin-bottom: 40px;
+}
+
+.restaurants__card {
+  margin-bottom: 40px;
+}
+.restaurants__card img {
+  height: 250px;
+  aspect-ratio: 4/3;
+  border-radius: 20px;
+}
+.restaurants__description h3 {
+  margin: 0;
+}
+
+#restaurants {
+  padding: 16px;
+  background-color: rgb(240, 240, 240);
+}
+#restaurants h2 {
+  margin-bottom: 20px;
+}
+
+footer {
+  padding: 16px;
+}
 
 /*# sourceMappingURL=style.css.map */

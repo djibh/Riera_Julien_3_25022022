@@ -1,0 +1,11 @@
+@import "../utils/variables";
+@import "../components/buttons";
+
+#call-to-action {
+  margin-bottom: 40px;
+  padding: 20px 0;
+  background-color: $color-lightgrey;
+  & h2 {
+    text-align: center;
+  }
+}

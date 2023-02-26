@@ -1,0 +1,11 @@
+@import "../utils/variables";
+
+@import "../components/cards";
+
+#restaurants {
+  padding: 16px;
+  background-color: $color-lightgrey;
+  & h2 {
+    margin-bottom: 20px;
+  }
+}
