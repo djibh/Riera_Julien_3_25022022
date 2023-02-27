@@ -8,6 +8,7 @@
   background-color: variables.$color-lightgrey;
   border-radius: 20px;
   align-items: center;
+  @include drop-shadow;
 }
 
 @mixin step-card-icon {
@@ -15,4 +16,8 @@
   margin-right: 24px;
   font-size: 1.3em;
   color: grey;
+}
+
+@mixin drop-shadow($color: #ddd) {
+    filter: drop-shadow(0px 4px 5px $color);
 }
