@@ -1,5 +1,8 @@
+@use "../utils/variables";
+
 .restaurants {
   &__card {
+    position: relative;
     margin-bottom: 40px;
     background-color: white;
     border-radius: 20px;
@@ -11,8 +14,24 @@
     }
   }
   &__description {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 10px;
+    line-height: 1.5;
     & h3 {
       margin: 0;
     }
+  }
+  &__new-tag {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 8px;
+    border-radius: 3px;
+    background-color: variables.$color-tertiary;
+    color: #449e88;
+    font-size: 0.8em;
+    font-weight: 500;
   }
 }
