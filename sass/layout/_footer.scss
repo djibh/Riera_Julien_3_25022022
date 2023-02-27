@@ -1,3 +1,5 @@
+@use "../utils/variables";
+
 footer {
-    padding: 16px;
+    padding: variables.$layout-outer-padding;
 }

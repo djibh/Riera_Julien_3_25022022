@@ -1,9 +1,12 @@
-@import "../utils/variables";
+@use "../utils/variables";
 
 .step__number {
-    height: 20px;
-    width: 20px ;
+    height: 24px;
+    width: 24px;
+    position: relative;
+    left: -12px;
     border-radius: 50%;
-    background-color: $color-primary;
+    background-color: variables.$color-primary;
     color: white;
+    line-height: 1.5;
 }

@@ -1,6 +1,27 @@
-@import "../components/step-numbers";
+@use "../components/step-numbers";
+@use "../utils/variables";
+@use "../utils/mixins";
 
 #instructions {
-    margin: 0 16px;
-    margin-bottom: 40px;
+  padding: 0 variables.$layout-outer-padding;
+  margin-bottom: 40px;
+}
+
+#steps-list {
+  padding-left: 10px;
+}
+
+.step {
+  width: 100%;
+  display: flex;
+  &__card {
+    @include mixins.step-card;
+  }
+  &__text {
+    justify-content: start;
+    font-weight: 500;
+    &-icon {
+      @include mixins.step-card-icon;
+    }
+  }
 }

@@ -42,40 +42,75 @@ header {
 
 #call-to-action {
   margin-bottom: 40px;
-  padding: 20px 0;
+  padding: 20px 25px;
   background-color: rgb(240, 240, 240);
 }
 #call-to-action h2 {
   text-align: center;
+  font-size: 1.25em;
 }
 
 .step__number {
-  height: 20px;
-  width: 20px;
+  height: 24px;
+  width: 24px;
+  position: relative;
+  left: -12px;
   border-radius: 50%;
   background-color: #9356DC;
   color: white;
+  line-height: 1.5;
 }
 
 #instructions {
-  margin: 0 16px;
+  padding: 0 25px;
   margin-bottom: 40px;
+}
+
+#steps-list {
+  padding-left: 10px;
+}
+
+.step {
+  width: 100%;
+  display: flex;
+}
+.step__card {
+  width: 100%;
+  height: 72px;
+  margin-bottom: 20px;
+  display: flex;
+  background-color: rgb(240, 240, 240);
+  border-radius: 20px;
+  align-items: center;
+}
+.step__text {
+  justify-content: start;
+  font-weight: 500;
+}
+.step__text-icon {
+  margin-left: 12px;
+  margin-right: 24px;
+  font-size: 1.3em;
+  color: grey;
 }
 
 .restaurants__card {
   margin-bottom: 40px;
+  background-color: white;
+  border-radius: 20px;
 }
 .restaurants__card img {
-  height: 250px;
-  aspect-ratio: 4/3;
-  border-radius: 20px;
+  width: 100%;
+  aspect-ratio: 16/10;
+  object-fit: cover;
+  border-radius: 20px 20px 0 0;
 }
 .restaurants__description h3 {
   margin: 0;
 }
 
 #restaurants {
-  padding: 16px;
+  padding: 25px;
   background-color: rgb(240, 240, 240);
 }
 #restaurants h2 {
@@ -83,7 +118,7 @@ header {
 }
 
 footer {
-  padding: 16px;
+  padding: 25px;
 }
 
 /*# sourceMappingURL=style.css.map */

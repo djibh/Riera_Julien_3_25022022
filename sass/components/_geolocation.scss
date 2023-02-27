@@ -1,6 +1,6 @@
-@import "../utils/variables";
+@use "../utils/variables";
 
 #location {
     padding: 20px 0;
-    background-color: $color-darkgrey;
+    background-color: variables.$color-darkgrey;
 }

@@ -1,10 +1,9 @@
-@import "../utils/variables";
-
-@import "../components/cards";
+@use "../utils/variables";
+@use "../components/cards";
 
 #restaurants {
-  padding: 16px;
-  background-color: $color-lightgrey;
+  padding: variables.$layout-outer-padding;
+  background-color: variables.$color-lightgrey;
   & h2 {
     margin-bottom: 20px;
   }

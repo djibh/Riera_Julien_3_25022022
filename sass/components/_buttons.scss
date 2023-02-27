@@ -1,9 +1,9 @@
-@import "../utils/variables";
+@use "../utils/variables";
 
 .omf-buttons {
     height: 40px;
     padding: 0 15px;
-    background-color: $color-primary;
+    background-color: variables.$color-primary;
     color: white;
     border-radius: 20px;
     border: none;
