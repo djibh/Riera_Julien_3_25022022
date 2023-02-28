@@ -9,7 +9,13 @@ footer {
     }
     & li {
         line-height: 1.7em;
+        font-weight: 500;
+        & .icon {
+            display: inline-block;
+            width: 20px;
+        }
     }
+
     & a {
         color: white;
     }
