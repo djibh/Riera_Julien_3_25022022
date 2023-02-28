@@ -1,5 +1,16 @@
-@use "../utils/variables";
+@use "../utils/variables" as var;
 
 footer {
-    padding: variables.$layout-outer-padding;
+    padding: var.$layout-outer-padding;
+    background-color: #444;
+    color: white;
+    & h3 {
+        font-family: 'Shrikhand';
+    }
+    & li {
+        line-height: 1.7em;
+    }
+    & a {
+        color: white;
+    }
 }

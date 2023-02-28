@@ -1,10 +1,13 @@
 @use "../components/step-numbers";
-@use "../utils/variables";
-@use "../utils/mixins";
+@use "../utils/variables" as var;
+@use "../utils/mixins" as mix;
 
 #instructions {
-  padding: 0 variables.$layout-outer-padding;
+  padding: 0 var.$layout-outer-padding;
   margin-bottom: 40px;
+  & h2 {
+    font-size: var.$headline2-size;
+  }
 }
 
 #steps-list {
@@ -15,13 +18,15 @@
   width: 100%;
   display: flex;
   &__card {
-    @include mixins.step-card;
+    @include mix.step-card;
   }
   &__text {
     justify-content: start;
+    font-size: 1.1em;
     font-weight: 500;
+    color: #444;
     &-icon {
-      @include mixins.step-card-icon;
+      @include mix.step-card-icon;
     }
   }
 }

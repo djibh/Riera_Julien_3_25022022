@@ -1,9 +1,4 @@
 @use "./base/base";
-@use "./layout/header";
-@use "./components/geolocation";
-@use "./layout/call-to-action";
-@use "./layout/instructions";
-@use "./layout/restaurants";
-@use "./layout/footer";
-
-
+@use "./layout/layout";
+@use "./pages/home";
+@use "./pages/menus";
