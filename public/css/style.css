@@ -125,7 +125,7 @@ header {
 }
 .restaurants__info .description {
   width: 80%;
-  font-size: 1.3em;
+  font-size: 1.1em;
 }
 .restaurants__info .description .name {
   margin: 0;
@@ -135,15 +135,27 @@ header {
   text-align: left;
 }
 .restaurants__info .favorites {
+  position: relative;
   width: 20%;
   height: 100%;
   font-size: 1.8em;
   line-height: 0;
   padding: 10px 0;
-  vertical-align: middle;
 }
-.restaurants__info .favorites:hover {
-  content: "\f004";
+.restaurants__info .favorites .heart {
+  color: red;
+}
+.restaurants__info .favorites .heart-outline {
+  position: relative;
+}
+.restaurants__info .favorites .heart-full {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.restaurants__info .favorites:hover .heart-full {
+  display: inline;
 }
 .restaurants__new-tag {
   position: absolute;
@@ -153,7 +165,7 @@ header {
   border-radius: 3px;
   background-color: #99E2D0;
   color: #449e88;
-  font-size: 0.8em;
+  font-size: 0.9em;
   font-weight: 500;
 }
 
