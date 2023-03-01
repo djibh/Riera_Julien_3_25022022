@@ -1,11 +1,11 @@
 @use "../utils/variables" as var;
 
 h2 {
-    font-weight: 300;
+  font-weight: 300;
 }
 
 h3 {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 #banner {
@@ -26,6 +26,12 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+#restaurant-name {
+    font-family: 'Shrikhand';
+    font-weight: 400;
+    font-size: 1.8em;
 }
 
 .divider {
@@ -58,5 +64,5 @@ h3 {
 }
 
 article {
-    margin-bottom: 3em;
+  margin-bottom: 3em;
 }

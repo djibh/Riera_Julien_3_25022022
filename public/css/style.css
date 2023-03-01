@@ -159,12 +159,14 @@ header {
   color: black;
 }
 .restaurants__info .favorites .heart-full {
-  display: none;
   position: absolute;
   top: 0;
   left: 0;
+  transform: scale(0);
+  transition: 150ms ease-out;
 }
 .restaurants__info .favorites i:hover .heart-full {
+  transform: scale(1);
   display: inline;
   color: #FF79DA;
 }
@@ -242,6 +244,12 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+#restaurant-name {
+  font-family: "Shrikhand";
+  font-weight: 400;
+  font-size: 1.8em;
 }
 
 .divider {
