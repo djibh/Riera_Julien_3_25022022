@@ -26,11 +26,11 @@
     & .description {
       width: 90%;
       font-size: var.$cards-font-size;
-      & .name {
+      & .title {
         margin: 0;
         text-align: left;
       }
-      & .city {
+      & .subtitle {
         text-align: left;
       }
     }
