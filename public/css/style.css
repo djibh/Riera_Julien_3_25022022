@@ -36,6 +36,10 @@ header {
   border: none;
   filter: drop-shadow(0px 4px 5px #aaa);
 }
+.omf-buttons:hover {
+  background: linear-gradient(to right bottom, #ff83dd, #9b63df);
+  filter: drop-shadow(0px 4px 5px #888);
+}
 
 #call-to-action {
   margin-bottom: 40px;
