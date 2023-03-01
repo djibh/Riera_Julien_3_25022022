@@ -163,7 +163,7 @@ header {
   top: 0;
   left: 0;
 }
-.restaurants__info .favorites:hover .heart-full {
+.restaurants__info .favorites i:hover .heart-full {
   display: inline;
   color: #FF79DA;
 }

@@ -54,7 +54,7 @@
           left: 0;
         }
       }
-      &:hover .heart-full {
+      & i:hover .heart-full {
         display: inline;
         color: var.$color-secondary;
       }
