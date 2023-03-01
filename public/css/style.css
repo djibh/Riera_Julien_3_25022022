@@ -68,7 +68,7 @@ header {
 
 #instructions {
   padding: 0 25px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 #instructions h2 {
   font-size: 1.8em;
@@ -130,11 +130,11 @@ header {
 }
 .restaurants__info {
   display: flex;
-  padding: 15px;
+  padding: 1em;
   line-height: 1.5;
 }
 .restaurants__info .description {
-  width: 80%;
+  width: 90%;
   font-size: 1.1em;
 }
 .restaurants__info .description .name {
@@ -146,7 +146,7 @@ header {
 }
 .restaurants__info .favorites {
   position: relative;
-  width: 20%;
+  width: 10%;
   height: 100%;
   font-size: 1.8em;
   line-height: 0;
