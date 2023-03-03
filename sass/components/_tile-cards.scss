@@ -1,4 +1,5 @@
 @use "../utils/mixins" as mix;
+@use "../utils/variables" as var;
 
 @use "../components/checkbox";
 
@@ -55,6 +56,22 @@
         color: white;
         transform: rotate(360deg);
       }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  #location {
+    font-size: 1.5rem;
+  }
+
+  .menu__cards .description {
+    h3 {
+      font-size: var.$headline3-size-tablet;
+    }
+    & span,
+    .price {
+      font-size: 1.4rem;
     }
   }
 }
