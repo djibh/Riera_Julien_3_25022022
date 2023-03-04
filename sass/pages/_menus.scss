@@ -50,13 +50,10 @@ h3 {
 
 .menu__sections {
   margin-bottom: 3em;
-  & .title {
+  &-title {
+    position: relative;
     margin-bottom: 2rem;
   }
-}
-
-.title {
-  position: relative;
 }
 
 .title::after {

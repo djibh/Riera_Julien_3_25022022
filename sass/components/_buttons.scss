@@ -1,18 +1,12 @@
 @use "../utils/variables" as var;
 @use "../utils/mixins" as mix;
 
-$color-gradient: linear-gradient(
-  to right bottom,
-  var.$color-secondary,
-  var.$color-primary
-);
-
 .omf-buttons {
   height: 50px;
   width: 17em;
   margin: 1.2em 0;
   padding: 0 15px;
-  background: $color-gradient;
+  background: var.$color-gradient;
   color: white;
   border-radius: 25px;
   border: none;
