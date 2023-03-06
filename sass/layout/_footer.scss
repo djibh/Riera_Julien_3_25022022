@@ -23,6 +23,7 @@ footer {
 
 @media only screen and (min-width: var.$tablet-breakpoint) {
   footer {
+    padding: 1em 4em;
     h3 {
       font-size: 1.8rem;
     }
@@ -33,10 +34,8 @@ footer {
 }
 
 @media only screen and (min-width: var.$desktop-breakpoint) {
-  footer {
-    width: 70%;
+  footer > * {
     max-width: 1400px;
-    margin: auto;
-    padding: 5em;
+    margin: 2em auto;
   }
 }
