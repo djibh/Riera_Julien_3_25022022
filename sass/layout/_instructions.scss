@@ -1,4 +1,4 @@
-@use "../components/step-numbers";
+// @use "../components/step-numbers";
 @use "../utils/variables" as var;
 @use "../utils/mixins" as mix;
 
@@ -12,12 +12,15 @@
 }
 
 #steps-list {
-  padding-left: 10px;
+  padding-left: 12px;
+  counter-reset: steps-counter;
 }
 
 .step {
+  position: relative;
   width: 100%;
   display: flex;
+  counter-increment: steps-counter;
   &__card {
     @include mix.step-card;
   }
@@ -29,6 +32,19 @@
     &-icon {
       @include mix.step-card-icon;
     }
+  }
+  &::before {
+    content: counter(steps-counter);
+    height: 24px;
+    width: 24px;
+    position: absolute;
+    left: -12px;
+    top: 28px;
+    border-radius: 50%;
+    background-color: var.$color-primary;
+    color: white;
+    line-height: 1.5;
+    z-index: 1;
   }
 }
 
